@@ -29,7 +29,7 @@ const Timer = () => {
   return (
     <>
       <h1 className="landing-page-heading">
-        {time.hourtime} :  {(time.minutetime < 10) && ("0" + time.minutetime || (time.minutetime))}
+        {time.hourtime} :  {(time.minutetime < 10) && ("0" + time.minutetime) || (time.minutetime)}
         
       </h1>
       <h1 className="landing-page-heading">
