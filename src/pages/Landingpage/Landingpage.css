@@ -1,0 +1,40 @@
+.landing-page-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.landing-page-heading {
+    color: var(--color-white);
+    font-size: 3em;
+    text-shadow: 2px 2px 2px var(--color-black);
+}
+
+.landing-page-input {
+    padding: 1rem;
+    width: 35rem;
+    font-size: 2em;
+    color: var(--color-white);
+    background: transparent;
+    outline: none;
+    caret-color: var(--color-white);
+    border: none;
+    border-bottom: 1px solid var(--color-white);
+}
+
+.landing-page-btn {
+    background: transparent;
+    padding: 10px;
+    border: none;
+    font-size: 1.5em;
+    border-radius: 2rem;
+    color: var(--color-white);
+}
+
+.landing-page-btn:hover {
+    background-color: rgb(233, 126, 126);
+    cursor: pointer;
+}
